@@ -1,0 +1,28 @@
+{
+  "name": "es6ish-string-format",
+  "version": "1.0.0",
+  "authors": [
+    "Cameron McKay <cameron@process.st>"
+  ],
+  "description": "An ES5 JavaScript string formatter compatible with ES6-style template strings",
+  "main": "format.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "format",
+    "string",
+    "es6",
+    "template",
+    "strings"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/process-street/es6ish-string-format",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
