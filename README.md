@@ -31,7 +31,7 @@ It can also access object attributes, like so:
 ```javascript
 var user = { username: 'cdmckay' };
 console.log('hello, ${user.username}'.format({ user: user }));
-// = 'this is a test'
+// = 'hello, cdmckay'
 ```
 
 This format method was designed to have a migration path to ES6 template strings. So, if you wanted to convert
@@ -40,7 +40,7 @@ the above example to an ES6 template string, simple replace the quotes with back
 ```javascript
 var user = { username: 'cdmckay' };
 console.log(`hello, ${user.username}`);
-// = 'this is a test'
+// = 'hello, cdmckay'
 ```
 
 ## Author
