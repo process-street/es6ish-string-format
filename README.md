@@ -51,4 +51,4 @@ console.log(`hello, ${user.username}`);
 
 ## License
 
-This library is available under the [MIT](https://mths.be/mit) license.
+This library is available under the [MIT](http://opensource.org/licenses/mit-license.php) license.
